@@ -51,6 +51,7 @@ body{
 .cont{
   margin: auto;
   margin-top: 1rem;
+  padding: 1rem;
   background-color: #1f275f;
   width: 75%;
 }
@@ -75,9 +76,24 @@ h4{
   margin-left: 8%;
 }
 
+.but-1{
+  display: flex;
+}
+
 .botao{
-  margin-left: 30%;
-  margin-top: 1%;
+  height:1rem;
+  margin: auto;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.botao > a{
+  background-color: aquamarine;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  padding: 5px;
 }
 
 #color{
