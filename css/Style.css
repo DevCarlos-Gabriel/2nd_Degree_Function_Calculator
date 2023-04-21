@@ -49,27 +49,11 @@ body{
 }
 
 .cont{
+  background-color: #1f275f;
   margin: auto;
   margin-top: 1rem;
   padding: 1rem;
-  background-color: #1f275f;
   width: 75%;
-}
-
-.cont1{
-  margin-left: 10%;
-}
-
-h2{
-  text-align: center;
-}
-
-h3{
-  margin-left: 2%;
-}
-
-h4{
-  margin-left: 4%;
 }
 
 .list{
@@ -102,4 +86,56 @@ h4{
 
 .letra{
   margin-left: 6%;
+}
+
+/*second degree calculator page CSS*/
+
+.body-for-content{
+  width: 100%;
+  display: flex;
+}
+
+.body-calculator{
+  background-color: #1f275f;
+  position: relative;
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.form-calc-func{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.input-but{
+  background-color: rgb(51, 132, 224);
+  border: 4px solid black;
+  width: 3rem;
+  display: flex;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-but:hover{
+  background-color: rgb(29, 91, 167);
+}
+
+/*Results*/
+
+.results{
+  border: 4px solid black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+
+/*Results (raízes)*/
+
+
+/*Results (vertices)*/
+
+.vertice{
+   margin-top: 0.5rem;
 }
